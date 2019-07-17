@@ -3,7 +3,8 @@ import { Notification } from 'react-native-fcm';
 import {
   ImageStyle,
   StyleProp,
-  TextStyle
+  TextStyle,
+  ViewStyle
 } from 'react-native';
 import { Navigator } from 'react-native-navigation';
 
@@ -72,6 +73,9 @@ export interface JSON {
   private_blocks?: BlockItem[];
   private_type: string;
   empty?: Empty;
+  pageNumberStyle?: StyleProp<TextStyle>;
+  navBarTitleStyle?: StyleProp<TextStyle>;
+  pageCounterStyle?: StyleProp<ViewStyle>;
   storyGradient?: StoryGradient;
   html?: HTML;
 }

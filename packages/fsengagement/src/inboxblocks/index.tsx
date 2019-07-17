@@ -4,10 +4,11 @@ import CTABlock from './CTABlock';
 import ImageBlock from './ImageBlock';
 import Card from './Card';
 import Story from './Story';
-
+import FullScreenImageCard from './FullScreenImageCard';
 import TwinCTABlock from './TwinCTABlock';
 import EventBlock from './EventBlock';
 import ShareBlock from './ShareBlock';
+import RecipeBlock from './RecipeBlock';
 import FeaturedTopCard from './FeaturedTopCard';
 import EventCard from './EventCard';
 import SimpleCard from './SimpleCard';
@@ -21,8 +22,10 @@ export default {
   Event: EventBlock,
   Card,
   FeaturedTopCard,
+  FullScreenImageCard,
   EventCard,
   SimpleCard,
   Share: ShareBlock,
-  story: Story
+  story: Story,
+  RecipeList: RecipeBlock
 };
